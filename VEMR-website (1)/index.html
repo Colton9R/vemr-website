@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b17">
+  <meta name="description" content="VEMR is a Minecraft survival community. Find your next adventure, build something of your own, and learn how to join.">
+  <meta property="og:title" content="VEMR — A world worth building in">
+  <meta property="og:description" content="Your next Minecraft survival adventure starts here.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vemr.net/">
+  <link rel="canonical" href="https://vemr.net/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js" defer></script>
+  <script src="app.js" defer></script>
+  <title>VEMR — A world worth building in</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="VEMR home"><span class="brand-icon" aria-hidden="true">V</span>VEMR<span class="brand-domain">.NET</span></a>
+    <nav aria-label="Main navigation"><a href="#experience">The world</a><a href="#join">How to join</a><button class="button button-small" data-open-join>Play VEMR <span aria-hidden="true">↗</span></button></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="square"></span> MINECRAFT SURVIVAL COMMUNITY</p>
+        <h1 id="hero-title">A world worth<br>building <em>in.</em></h1>
+        <p class="hero-description">Start with a few blocks. End with a story.<br>Find your next adventure on VEMR.</p>
+        <div class="hero-actions"><button class="button" data-open-join>Find your way in <span aria-hidden="true">↗</span></button><a class="text-link" href="#experience">Explore the world <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-note">Your next chapter starts here.</p>
+      </div>
+      <div class="hero-art"><img src="assets/world.svg" alt="Illustrated block landscape with a hillside cabin, pine trees and distant mountains" width="800" height="740"><div class="art-caption"><span>01 / A NEW HORIZON</span><span aria-hidden="true">+  +  +</span></div></div>
+    </section>
+    <div class="world-strip"><div class="wrap strip-inner"><span>ONE WORLD. YOUR OWN WAY.</span><span>EXPLORE <i>✦</i> BUILD <i>✦</i> BELONG</span></div></div>
+    <section class="experience wrap section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">MAKE IT YOURS</p><h2 id="experience-title">Small beginnings.<br><span>Big possibilities.</span></h2><p>A first shelter. A road into the unknown. A project that grows one block at a time. Choose where your survival story goes next.</p></div>
+      <div class="experience-grid">
+        <article><span class="card-number">01 / EXPLORE</span><div class="scene scene-explore" aria-hidden="true"><span class="sun"></span><span class="mountain mountain-one"></span><span class="mountain mountain-two"></span><span class="scene-ground"></span></div><h3>Take the long way.</h3><p>Follow the horizon, find a place that catches your eye, and make the journey part of the story.</p></article>
+        <article><span class="card-number">02 / BUILD</span><div class="scene scene-build" aria-hidden="true"><span class="build-block b1"></span><span class="build-block b2"></span><span class="build-block b3"></span><span class="build-block b4"></span><span class="scene-ground"></span></div><h3>Leave your mark.</h3><p>From a hillside cabin to your most ambitious build, turn an empty patch of land into something of your own.</p></article>
+        <article><span class="card-number">03 / BELONG</span><div class="scene scene-belong" aria-hidden="true"><span class="pixel-person person-one"></span><span class="pixel-person person-two"></span><span class="pixel-person person-three"></span><span class="scene-ground"></span></div><h3>Bring a friend.</h3><p>Share an adventure, dream up a project together, and create memories beyond the blocks.</p></article>
+      </div>
+    </section>
+    <section class="join-section" id="join" aria-labelledby="join-title"><div class="wrap join-layout"><div><p class="eyebrow">YOUR FIRST BLOCK STARTS HERE</p><h2 id="join-title">Ready for a<br>fresh adventure?</h2><p>Grab your pickaxe. We'll show you the way.</p><button class="button" data-open-join>View connection details <span aria-hidden="true">↗</span></button></div><ol class="join-steps"><li><span>01</span><div><h3>Check the server details</h3><p>View the address and supported edition below.</p></div></li><li><span>02</span><div><h3>Add VEMR to your server list</h3><p>Open Minecraft's multiplayer menu and enter the connection details.</p></div></li><li><span>03</span><div><h3>Begin your story</h3><p>Join the server and take your first step into the world.</p></div></li></ol></div></section>
+    <section class="faq wrap section" aria-labelledby="faq-title"><div><p class="eyebrow">BEFORE YOU PACK YOUR INVENTORY</p><h2 id="faq-title">Good to know.</h2></div><div class="faq-list"><details><summary>How do I connect?</summary><p id="faq-connect">Open the connection details to see the current server address and edition information.</p></details><details><summary>Can I join on Java or Bedrock?</summary><p id="faq-editions">Supported editions will appear in the connection details once confirmed.</p></details><details><summary>Where can I find the community?</summary><p id="faq-discord">The community invite will be shared here when available.</p></details></div></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">V</span>VEMR</a><p>A world worth building in.</p><span>© <span id="year">2026</span> VEMR · Not an official Minecraft product.</span></footer>
+  <dialog id="join-dialog" aria-labelledby="dialog-title"><button id="close-dialog" class="close-button" aria-label="Close connection details">×</button><p class="eyebrow">LET'S GET YOU IN</p><h2 id="dialog-title">Join VEMR.</h2><div id="connection-details"></div><p class="dialog-tip">Use the address in Minecraft's multiplayer server list.</p><p id="copy-status" role="status" aria-live="polite"></p></dialog>
+</body>
+</html>
